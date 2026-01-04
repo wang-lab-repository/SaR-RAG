@@ -7,4 +7,4 @@ the Feature Fusion Model model file is located on https://github.com/wang-lab-re
 
 the MDDS model file is located on https://github.com/wang-lab-repository/SaR-RAG/blob/main/src/.model/documents_scorer.py
 
-/src/datasets contains relevant the data from comparison experiments and ablation experiments
+/src/datasets contains the relevant data from comparison experiments and ablation experiments
