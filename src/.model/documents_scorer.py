@@ -32,15 +32,13 @@ class LabelAwarePooler(nn.Module):
 
 
 class TaskHead(nn.Module):
-    """
-    Single-logit binary classifier head (for BCE)
-    """
+
     def __init__(self, hidden_size, inner_dim=256, dropout=0.1):
         super().__init__()
         self.fc1 = nn.Linear(hidden_size, inner_dim)
         self.act = nn.ReLU()
         self.dropout = nn.Dropout(dropout)
-        self.classifier = nn.Linear(inner_dim, 1)  # ★ 单 logit
+        self.classifier = nn.Linear(inner_dim, 1)
 
     def forward(self, x):
         h = self.fc1(x)
@@ -51,11 +49,7 @@ class TaskHead(nn.Module):
 
 
 class DebertaForMultiHeadClassification(nn.Module):
-    """
-    Paper-aligned version:
-    - BCEWithLogitsLoss with class weighting
-    - Uncertainty-based multi-task loss weighting
-    """
+
     def __init__(
         self,
         model_name="microsoft/deberta-v3-base",
