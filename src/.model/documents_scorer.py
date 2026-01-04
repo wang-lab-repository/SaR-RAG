@@ -54,7 +54,7 @@ class DebertaForMultiHeadClassification(nn.Module):
         self,
         model_name="microsoft/deberta-v3-base",
         hidden_size_override=None,
-        pos_weights=None,  # dict: {"coverage": w, "utility": w, "depth": w}
+        pos_weights=None, 
         dropout=0.1
     ):
         super().__init__()
@@ -100,7 +100,7 @@ class DebertaForMultiHeadClassification(nn.Module):
         }
 
         if labels is not None:
-            labels = labels.float()  # BCE requires float
+            labels = labels.float()
 
             cov_loss = self.loss_fns["coverage"](cov_logit, labels[:, 0])
             utl_loss = self.loss_fns["utility"](utl_logit, labels[:, 1])
