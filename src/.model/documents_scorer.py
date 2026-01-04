@@ -5,19 +5,14 @@ import torch.nn.functional as F
 from transformers import DebertaV2Model
 
 class LabelAwarePooler(nn.Module):
-    """
-    对 encoder 的 token 隐藏做 label-aware attention pooling。
-    - num_tasks: 3 (coverage, utility, depth)
-    - task_hidden: 每个任务内部的表示维度（通常等于 backbone hidden）
-    """
+
     def __init__(self, hidden_size, num_tasks=3, dropout=0.1):
         super().__init__()
         self.num_tasks = num_tasks
         self.hidden_size = hidden_size
-        # 每个 task 一个可学习的 query 向量 (1, hidden)
-        # 使用多头效果可以扩展成 (num_heads, hidden)
+
         self.task_queries = nn.Parameter(torch.randn(num_tasks, hidden_size) * 0.02)
-        # 一个可共享的投影将 encoder hidden 投影到 attention 空间（可选）
+
         self.key_proj = nn.Linear(hidden_size, hidden_size)
         self.dropout = nn.Dropout(dropout)
         self.activation = nn.Tanh()
@@ -30,7 +25,7 @@ class LabelAwarePooler(nn.Module):
         """
         keys = self.key_proj(hidden_states)  # (B, L, H)
     
-        # 计算每个 task query 对每个 token 的注意力分数
+
         attn_scores = torch.matmul(keys, self.task_queries.t())  # (B, L, T)
         attn_scores = attn_scores.transpose(1, 2)  # (B, T, L)
     
@@ -47,10 +42,7 @@ class LabelAwarePooler(nn.Module):
 
 
 class TaskHead(nn.Module):
-    """
-    每个任务一个小型分类 head：可选的 bottleneck -> classifier
-    输出 logits for binary classification (2 classes)
-    """
+
     def __init__(self, hidden_size, inner_dim=256, dropout=0.1, num_labels=2):
         super().__init__()
         self.fc1 = nn.Linear(hidden_size, inner_dim)
@@ -132,7 +124,7 @@ class DebertaForMultiHeadClassification(nn.Module):
             utl_loss = self.loss_fns["utility"](utl_logits, utl_labels)
             dep_loss = self.loss_fns["depth"](dep_logits, dep_labels)
 
-            # 可调的 loss 权重（如果需要可以在训练脚本里调整）
+
             total_loss = (cov_loss + utl_loss + dep_loss) / 3.0
 
             output["coverage_loss"] = cov_loss
