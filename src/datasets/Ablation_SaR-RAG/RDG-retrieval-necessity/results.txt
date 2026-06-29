@@ -1,0 +1,44 @@
+==================================================
+Dataset: HotpotQA
+==================================================
+useRAG=0 (without RAG):
+  Total samples: 60
+  Prediction contains any answer: 33
+  Ratio: 55.00%
+
+useRAG=1 (with RAG):
+  Total samples: 440
+  Prediction does NOT contain any answer: 388
+  Ratio: 88.18%
+
+==================================================
+Dataset: TriviaQA
+==================================================
+useRAG=0 (without RAG):
+  Total samples: 169
+  Prediction contains any answer: 121
+  Ratio: 71.60%
+
+useRAG=1 (with RAG):
+  Total samples: 331
+  Prediction does NOT contain any answer: 273
+  Ratio: 82.48%
+
+==================================================
+Dataset: NQ
+==================================================
+useRAG=0 (without RAG):
+  Total samples: 156
+  Prediction contains any answer: 135
+  Ratio: 86.54%
+
+useRAG=1 (with RAG):
+  Total samples: 344
+  Prediction does NOT contain any answer: 321
+  Ratio: 93.31%
+
+==================================================
+Summary across all datasets
+==================================================
+useRAG=0: 289/385 = 75.06%
+useRAG=1: 982/1115 = 88.07%
