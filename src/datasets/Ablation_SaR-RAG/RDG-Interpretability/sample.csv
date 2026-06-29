@@ -1,0 +1,201 @@
+﻿id,question,useRAG,dataset,char_count,digit_char_count,has_quote,starts_with_why,starts_with_how,starts_with_what,starts_with_who,starts_with_when,starts_with_where,starts_with_which,is_definition,is_yesno,is_comparison,word_count,number_token_count,verb_count,propn_count,noun_chunk_count,entity_count,person_count,org_gpe_loc_count,date_time_count,cardinal_count,has_person_entity,has_date_entity,has_number_entity
+dev_186,what is the first book of percy jackson,0,nq,39,0,0,0,0,1,0,0,0,0,1,0,0,8,1,0,2,3,2,1,0,0,1,1,0,1
+bb_6022,What is a third divided by a half?,0,trivia,34,0,0,0,0,1,0,0,0,0,1,0,0,9,1,1,0,2,2,0,0,0,2,0,0,1
+dev_179,where do they put the tomb vampires in order to burn them during founders day,0,nq,77,0,0,0,0,0,0,0,1,0,0,0,0,15,0,2,0,5,0,0,0,0,0,0,0,0
+sfq_25914,With atomic number 50 which element in the periodic table has the shortest name?,0,trivia,80,2,0,0,0,0,0,0,0,0,0,0,0,15,1,1,0,4,1,0,0,0,1,0,0,1
+odql_723,What sort of plant is 'Bladderwrack'?,0,trivia,37,0,1,0,0,1,0,0,0,0,0,0,0,9,0,0,1,3,0,0,0,0,0,0,0,0
+qb_6189,"On a standard dartboard, what number lies opposite 18?",0,trivia,54,2,0,0,0,0,0,0,0,0,0,0,0,11,1,1,0,2,1,0,0,0,1,0,0,1
+qg_2596,"Who's missing: George Costanza, Elaine Bennes, Cosmo Kramer",0,trivia,59,0,1,0,0,0,0,0,0,0,0,0,0,12,0,1,6,4,3,3,0,0,0,1,0,0
+qf_995,What is the Human body's hardest bone?,0,trivia,38,0,1,0,0,1,0,0,0,0,1,0,0,9,0,0,0,2,1,0,1,0,0,0,0,0
+5a7b1c6b55429931da12c9ca,"Johnny Edwards and Ian Anderson are singers, who had joined the greater number of bands?",0,hotpot,88,0,0,0,0,0,0,0,0,0,0,0,0,17,0,1,4,6,2,2,0,0,0,1,0,0
+dev_466,what are the power of supreme court in the philippines,0,nq,54,0,0,0,0,1,0,0,0,0,1,0,0,10,0,0,2,4,1,0,1,0,0,0,0,0
+qw_16115,"Italian Dr Mattheo Thun, whose work can involve bottles and cutlery among other things is best described as what?",0,trivia,113,0,0,0,0,0,0,0,0,0,0,0,0,21,0,2,4,6,2,0,2,0,0,0,0,0
+qz_2428,What are the shape-shifting foxes of the Japanese folklore?,0,trivia,59,0,0,0,0,1,0,0,0,0,1,0,0,12,0,1,0,3,1,0,1,0,0,0,0,0
+wh_3326,Which geological period came between the Triassic and Cretaceous periods?,0,trivia,73,0,0,0,0,0,0,0,0,1,0,0,1,11,0,1,1,2,1,0,0,0,0,0,0,0
+dev_2781,what information is displayed in clear text from the ftp header,0,nq,63,0,0,0,0,1,0,0,0,0,0,0,0,11,0,1,1,3,1,0,1,0,0,0,0,0
+odql_9667,Who in the Muslim faith proclaims the hours of prayer from a minaret?,0,trivia,69,0,0,0,0,0,1,0,0,0,0,0,0,14,0,1,0,5,2,0,1,1,0,0,1,0
+jp_2420,"According to the Quran, a man is allowed to have as many as four what?",0,trivia,70,0,0,0,0,0,0,0,0,0,0,0,0,17,1,3,1,3,2,0,1,0,1,0,0,1
+dev_3116,the basic steps of rational decision making include defining goals and,0,nq,70,0,0,0,0,0,0,0,0,0,0,0,0,11,0,2,0,3,0,0,0,0,0,0,0,0
+sfq_7325,"""What was the sequel to 'Tom Brown's Schooldays""""?""",0,trivia,51,0,1,0,0,1,0,0,0,0,0,0,0,15,0,0,3,3,2,1,0,1,0,1,1,0
+dev_302,where is the highest level of fluoride stored in the teeth,0,nq,58,0,0,0,0,0,0,0,1,0,0,0,0,11,0,1,0,3,0,0,0,0,0,0,0,0
+5a8b42be55429949d91db515,What profession does John Lanchester and Alan Dean Foster have in common?,0,hotpot,73,0,0,0,0,1,0,0,0,0,0,0,0,13,0,1,5,3,2,2,0,0,0,1,0,0
+qw_9549,What acid is found in tea?,0,trivia,26,0,0,0,0,1,0,0,0,0,0,0,0,7,0,1,0,2,0,0,0,0,0,0,0,0
+dev_372,where does hydrogen peroxide come from in the body,0,nq,50,0,0,0,0,0,0,0,1,0,0,0,0,9,0,1,1,2,0,0,0,0,0,0,0,0
+dev_2810,when did world war one begin and end,0,nq,36,0,0,0,0,0,0,1,0,0,0,0,0,8,1,2,0,1,1,0,0,0,1,0,0,1
+dev_1105,what does the adrenal gland produce that is necessary for the sympathetic nervous system to function,0,nq,100,0,0,0,0,1,0,0,0,0,0,0,0,16,0,1,0,4,0,0,0,0,0,0,0,0
+5ab5de535542992aa134a3b6,Are Alek Keshishian and Kirk Kerkorian both Armenian-American?,0,hotpot,62,0,0,0,0,0,0,0,0,0,0,1,1,11,0,0,6,3,3,1,2,0,0,1,0,0
+5a731c205542994cef4bc45d," A business such as Eatza Pizza or Pizza Fusion, which have more then 10 locations are considered to be what?",0,hotpot,108,2,0,0,0,0,0,0,0,0,0,0,1,22,1,2,4,6,2,0,1,0,1,0,0,1
+dev_871,what is the name of governor of maharashtra,0,nq,43,0,0,0,0,1,0,0,0,0,1,0,0,8,0,0,1,4,0,0,0,0,0,0,0,0
+dpql_2271,What is a ‘mullet’ on a coat of arms?,0,trivia,37,0,0,0,0,1,0,0,0,0,1,0,0,12,0,0,0,4,0,0,0,0,0,0,0,0
+qg_2428,"What is the lowest level of the atmosphere, which lies below the stratosphere, called?",0,trivia,86,0,0,0,0,1,0,0,0,0,1,0,0,17,0,2,0,5,0,0,0,0,0,0,0,0
+qw_4637,"""What is the name of the principle that """"if two explanations account equally well for a particular phenomenon, the one to be chosen is the one with the fewer assumptions""""?""",0,trivia,174,0,1,0,0,1,0,0,0,0,0,0,0,38,3,2,0,7,1,0,0,0,1,0,0,1
+sfq_12364,Which insects live in a vespiary?,0,trivia,33,0,0,0,0,0,0,0,0,1,0,0,0,7,0,2,0,2,0,0,0,0,0,0,0,0
+bb_4587,"360 Varial, Ollie, Nollie, and Frontside Air are terms in?",0,trivia,58,3,0,0,0,0,0,0,0,0,0,0,0,14,1,0,5,5,3,2,0,0,1,1,0,1
+sfq_5329,What is the largest state in Brazil?,0,trivia,36,0,0,0,0,1,0,0,0,0,1,0,0,8,0,0,1,3,1,0,1,0,0,0,0,0
+dev_2687,what type of car is a g wagon,0,nq,29,0,0,0,0,1,0,0,0,0,0,0,0,8,0,0,1,3,0,0,0,0,0,0,0,0
+qf_445,What word describes words which are formed from using the first letters of a line in a poem?,0,trivia,92,0,0,0,0,1,0,0,0,0,0,0,0,19,1,3,0,6,1,0,0,0,1,0,0,1
+5ac41f1d5542991943173924,"Is Ohio State University or California State University, Dominguez Hills further west?",0,hotpot,86,0,0,0,0,0,0,0,0,0,0,1,1,14,0,0,8,3,3,0,3,0,0,0,0,0
+qw_3002,Porcupine grass is also known as what?,0,trivia,38,0,0,0,0,0,0,0,0,0,0,0,0,8,0,1,0,2,0,0,0,0,0,0,0,0
+sfq_13010,Metz is the capital of which region of France?,0,trivia,46,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,2,4,1,0,1,0,0,0,0,0
+wh_2171,"In Japan, the term Mikado is an alternative name for what ?",0,trivia,59,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,2,5,2,1,1,0,0,1,0,0
+jp_1418,What is the most common chemical used in nail polish remover?,0,trivia,61,0,0,0,0,1,0,0,0,0,1,0,0,12,0,1,2,3,1,0,1,0,0,0,0,0
+qg_3394,The ancient city of Troy is located in what modern country?,0,trivia,59,0,0,0,0,0,0,0,0,0,0,0,0,12,0,1,1,3,1,0,1,0,0,0,0,0
+wh_984,The human brain is made up of between 10 billion and 100 billion nerve cells known as what?,0,trivia,91,5,0,0,0,0,0,0,0,0,0,0,1,19,4,2,0,3,1,0,0,0,1,0,0,1
+qw_113,What is the capital of the U S state of Pennsylvania?,0,trivia,53,0,0,0,0,1,0,0,0,0,1,0,0,12,0,0,3,4,1,0,1,0,0,0,0,0
+qw_11526,Where is the Australian parliament based?,0,trivia,41,0,0,0,0,0,0,0,1,0,0,0,0,7,0,1,0,1,1,0,1,0,0,0,0,0
+bb_5777,Amal Clooney is an internationally renowned?,0,trivia,44,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,2,1,1,1,0,0,0,1,0,0
+qb_6552,The Suez Canal joins the Red Sea and which other body of water?,0,trivia,63,0,0,0,0,0,0,0,0,0,0,0,0,14,0,1,4,4,2,0,2,0,0,0,0,0
+dev_1592,the elements in each period have the same number of,0,nq,51,0,0,0,0,0,0,0,0,0,0,0,1,10,0,1,0,3,0,0,0,0,0,0,0,0
+dev_2693,who wrote when a man loves a woman,0,nq,34,0,0,0,0,0,1,0,0,0,0,0,0,8,0,2,0,3,0,0,0,0,0,0,0,0
+qg_2490,What does “SPF” mean on sunscreen containers?,0,trivia,45,0,0,0,0,1,0,0,0,0,1,0,0,10,0,1,1,2,0,0,0,0,0,0,0,0
+qb_5442,"‘Swifter, Higher, Stronger’ is the motto for the modern ‘what’?",0,trivia,63,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,3,0,0,0,0,0,0,0,0
+dev_1022,who is in charge of new issues not mentioned in the constitution,0,nq,64,0,0,0,0,0,1,0,0,0,0,0,0,12,0,1,0,4,0,0,0,0,0,0,0,0
+qz_2873,Which cartoon character lives in a pineapple under the sea?,0,trivia,59,0,0,0,0,0,0,0,0,1,0,0,0,11,0,1,0,3,0,0,0,0,0,0,0,0
+qw_16265,Who gave Harry Potter his first kiss?,0,trivia,37,0,0,0,0,0,1,0,0,0,0,0,0,8,1,1,2,3,2,1,0,0,1,1,0,1
+odql_12355,Yellowknife is the capital of which Canadian territory?,0,trivia,55,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,4,1,0,1,0,0,0,0,0
+5a8b59a65542995d1e6f137c,Are Stephen Frears and Jan Švankmajer from the same country?,0,hotpot,60,0,0,0,0,0,0,0,0,0,0,1,1,11,0,0,4,3,2,1,1,0,0,1,0,0
+5ae3f4fe5542995ad6573ce8,Are the genera Gordonia and Osbeckia in the same family?,0,hotpot,56,0,0,0,0,0,0,0,0,0,0,1,1,11,0,0,2,4,2,0,2,0,0,0,0,0
+5a7f39d055429934daa2fd2a,"Which is a comedy film, The Million Dollar Duck or Don Quixote?",0,hotpot,63,0,0,0,0,0,0,0,0,1,0,0,1,14,1,0,5,4,1,1,0,0,0,1,0,0
+dev_1983,who is the ceo of what's up,0,nq,27,0,1,0,0,0,1,0,0,0,0,0,0,8,0,0,0,3,0,0,0,0,0,0,0,0
+5a721e0e55429971e9dc928d,which university was founded first Duke University or Tufts University?,0,hotpot,71,0,0,0,0,0,0,0,0,1,0,0,1,11,1,1,4,2,2,0,2,0,0,0,0,0
+bb_5754,How many times does the second-hand of an clockwork clock 'tick' (move) while the hour-hand completes one full rotation?,0,trivia,120,0,1,0,1,0,0,0,0,0,0,0,0,28,2,2,0,6,2,0,0,1,1,0,1,1
+sfq_7140,What is the name of the drunken robot in the TV series Futurama?,0,trivia,64,0,0,0,0,1,0,0,0,0,1,0,0,14,0,0,1,5,1,1,0,0,0,1,0,0
+5a7785af55429949eeb29ec2,"Who is older, James Kerwin or Paul Verhoeven?",0,hotpot,45,0,0,0,0,0,1,0,0,0,0,0,1,10,0,0,4,3,2,2,0,0,0,1,0,0
+qw_9482,What are the topmost 7 vertebrae of the backbone called?,0,trivia,56,1,0,0,0,1,0,0,0,0,1,0,0,11,1,1,0,3,1,0,0,0,1,0,0,1
+bt_3142,What is vellum parchment made from,0,trivia,34,0,0,0,0,1,0,0,0,0,1,0,0,6,0,1,0,2,0,0,0,0,0,0,0,0
+dev_2107,where does junior want to go to find hope,0,nq,41,0,0,0,0,0,0,0,1,0,0,0,0,9,0,3,0,2,0,0,0,0,0,0,0,0
+odql_11061,What is the county town of Mayo?,0,trivia,32,0,0,0,0,1,0,0,0,0,1,0,0,8,0,0,1,3,1,1,0,0,0,1,0,0
+dev_1111,who sang it must have been love but its over now,0,nq,48,0,0,0,0,0,1,0,0,0,0,0,0,11,0,1,0,3,0,0,0,0,0,0,0,0
+dev_1821,what's in a beam me up scotty,0,nq,29,0,1,0,0,0,0,0,0,0,0,0,0,8,0,0,0,2,0,0,0,0,0,0,0,0
+bb_3250,Lysergic Acid Diethylamide is better known by what abbreviated name?,0,trivia,68,0,0,0,0,0,0,0,0,0,0,0,0,11,0,2,3,2,1,1,0,0,0,1,0,0
+bt_685,What is the name of the official publication of the Jehova’s Witnesses,0,trivia,70,0,0,0,0,1,0,0,0,0,1,0,0,13,0,0,1,4,1,1,0,0,0,1,0,0
+5ab5f75e554299637185c64b,What is both Grimaldi's Pizzeria and Papa Gino's primary menu item?,0,hotpot,67,0,1,0,0,1,0,0,0,0,1,0,1,14,0,0,4,2,3,2,1,0,0,1,0,0
+dev_3504,deep water fishing boat with many baited hooks,0,nq,46,0,0,0,0,0,0,0,0,0,0,0,0,8,0,1,0,2,0,0,0,0,0,0,0,0
+jp_3459,What is the word for a pile of rocks that marks a hiking trail?,0,trivia,63,0,0,0,0,1,0,0,0,0,1,0,0,15,0,1,0,6,0,0,0,0,0,0,0,0
+dpql_4066,What is the Latin motto of the film company Metro-Goldwyn-Mayer has the motto?,0,trivia,78,0,0,0,0,1,0,0,0,0,1,0,0,18,0,1,3,5,3,0,3,0,0,0,0,0
+qb_3535,All matter in the Universe was said to be created by the ‘Big….what’ nearly 14 billion years ago?,0,trivia,97,2,0,0,0,0,0,0,0,0,0,0,0,21,2,2,1,2,1,0,1,0,0,0,0,0
+5a7291c35542991f9a20c4f4,What movie was directed by Harold Ramis and stars Bill  Murray?,0,hotpot,63,0,0,0,0,1,0,0,0,0,0,0,0,12,0,1,4,3,2,2,0,0,0,1,0,0
+dev_1723,where does the electron transport chain get its electrons from,0,nq,62,0,0,0,0,0,0,0,1,0,0,0,0,10,0,1,0,2,0,0,0,0,0,0,0,0
+dev_1325,where does prime rib come from on a cow,0,nq,39,0,0,0,0,0,0,0,1,0,0,0,0,9,0,1,1,2,0,0,0,0,0,0,0,0
+qw_5965,What is another name for the alligator pear?,0,trivia,44,0,0,0,0,1,0,0,0,0,1,0,0,9,0,1,0,2,0,0,0,0,0,0,0,0
+5a7c17c95542990527d5544d,"A guitar player called Noodles is a longtime member of which band, The Smashing Pumpkins or The Offspring?",0,hotpot,106,0,0,0,0,0,0,0,0,0,0,0,1,20,0,1,3,6,3,0,1,0,0,0,0,0
+qw_15086,Quitline is a system of centres to help people to quit what?,0,trivia,60,0,0,0,0,0,0,0,0,0,0,0,0,13,0,2,1,5,1,0,1,0,0,0,0,0
+qb_4301,What is a female gerbil called?,0,trivia,31,0,0,0,0,1,0,0,0,0,1,0,0,7,0,1,0,2,0,0,0,0,0,0,0,0
+5a88696b554299206df2b25b,What type of profession does Chris Jericho and Gary Barlow have in common?,0,hotpot,74,0,0,0,0,1,0,0,0,0,0,0,0,14,0,1,4,4,2,2,0,0,0,1,0,0
+dpql_3627,What literally means ‘submission to God’ in Arabic?,0,trivia,51,0,0,0,0,1,0,0,0,0,0,0,0,11,0,1,2,4,1,0,0,0,0,0,0,0
+bt_3777,What drink was invented by oilmen who used to use their tools to stir it,0,trivia,72,0,0,0,0,1,0,0,0,0,0,0,0,15,0,4,0,5,0,0,0,0,0,0,0,0
+jp_3754,The marathon is named after a city in what country?,0,trivia,51,0,0,0,0,0,0,0,0,0,0,0,0,11,0,1,0,3,0,0,0,0,0,0,0,0
+dev_1483,who want to be a millionaire calls his dad,0,nq,42,0,0,0,0,0,1,0,0,0,0,0,0,9,0,2,0,3,0,0,0,0,0,0,0,0
+5abe731255429965af743f0e,What profession does Matt Thiessen and George Thorogood have in common?,0,hotpot,71,0,0,0,0,1,0,0,0,0,0,0,0,12,0,1,4,3,2,2,0,0,0,1,0,0
+dev_72,is there a name for the at symbol,0,nq,33,0,0,0,0,0,0,0,0,0,0,1,0,8,0,0,0,2,0,0,0,0,0,0,0,0
+qb_3954,"In Greek mythology, what is Erinys?",0,trivia,35,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,1,3,2,1,1,0,0,1,0,0
+dev_3391,where do the astros play for spring training,0,nq,44,0,0,0,0,0,0,0,1,0,0,0,0,8,0,1,0,2,0,0,0,0,0,0,0,0
+5ae022ab554299025d62a428,"Which genus is native to arid or semi-desert areas, Alopecurus or Echeveria?",0,hotpot,76,0,0,0,0,0,0,0,0,1,0,0,1,16,0,0,2,4,1,0,0,0,0,0,0,0
+qz_2933,"If it was Phil Mickelson in 2006, Zach Johnson in 2007, and Trevor Immelman in 2008, who was it in 2009?",0,trivia,104,16,0,0,0,0,0,0,0,0,0,0,0,25,4,0,6,6,7,3,0,4,0,1,1,0
+bb_5126,A chemical reaction accelerated by adding a separate recyclable substance is?,0,trivia,77,0,0,0,0,0,0,0,0,0,0,0,0,12,0,2,0,2,0,0,0,0,0,0,0,0
+sfq_2764,What is the anatomical name for the upper jaw bone?,0,trivia,51,0,0,0,0,1,0,0,0,0,1,0,0,11,0,0,0,3,0,0,0,0,0,0,0,0
+sfq_6658,What is the name of the heroine in the story of 'Beauty and the Beast'?,0,trivia,71,0,1,0,0,1,0,0,0,0,1,0,0,18,0,0,1,6,1,0,0,0,0,0,0,0
+5ae1ce895542997f29b3c11e,Are both Yixing and Shaoshan county-level cities in China?,0,hotpot,58,0,0,0,0,0,0,0,0,0,0,1,1,12,0,0,2,2,3,1,2,0,0,1,0,0
+qw_669,"In Buddhism, what is the state of blissful repose or absolute existence by someone relieved of the necessity of rebirth?",0,trivia,120,0,0,0,0,0,0,0,0,0,0,0,1,22,0,1,1,8,0,0,0,0,0,0,0,0
+qg_580,A rabbit punch is a blow to what part of the body?,0,trivia,50,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,4,0,0,0,0,0,0,0,0
+sfq_2085,"Which sauce is made from mayonnaise, chopped capers and onions?",0,trivia,63,0,0,0,0,0,0,0,0,1,0,0,0,12,0,2,0,4,0,0,0,0,0,0,0,0
+bb_4598,"Flemington, Greyville, and Longchamp are associated with what, respectively in Australia, South Africa, and France?",1,trivia,115,0,0,0,0,0,0,0,0,0,0,0,0,21,0,1,7,7,6,2,4,0,0,1,0,0
+dpql_2767,Which English town is home to the Stephen Joseph Theatre?,1,trivia,57,0,0,0,0,0,0,0,0,1,0,0,0,11,0,0,3,2,2,0,2,0,0,0,0,0
+5abc32cb55429959677d6a40,What vocalist and pianist was recorded by Modular Recordings?,1,hotpot,61,0,0,0,0,1,0,0,0,0,0,0,0,10,0,1,2,3,1,1,0,0,0,1,0,0
+odql_6838,"www.lbvcr.com is the website for which event organised by the RAC, this year on Sunday November 7th?",1,trivia,100,1,0,0,0,0,0,0,0,0,0,0,0,19,1,1,3,4,3,0,1,2,0,0,1,0
+odql_11781,Which group had a number one hit in July 2010 with 'The Club Is Alive'?,1,trivia,71,4,1,0,0,0,0,0,0,1,0,0,0,18,2,2,2,3,2,0,0,1,0,0,1,0
+5abc030e554299642a094bdc,The Distribution of Industry act was passed by a man who was prime minister when? ,1,hotpot,81,0,0,0,0,0,0,0,0,0,0,0,0,16,0,1,2,4,1,0,1,0,0,0,0,0
+dev_3406,where did the tradition of the pinata come from,1,nq,47,0,0,0,0,0,0,0,1,0,0,0,0,9,0,1,0,2,0,0,0,0,0,0,0,0
+sfq_23467,Which National Park includes the Black Mountains and Usk Valley?,1,trivia,64,0,0,0,0,0,0,0,0,1,0,0,0,11,0,1,6,4,3,0,3,0,0,0,0,0
+5ab874ba5542990e739ec904,The Twelfth United States Army Group commander was the first chairman of what?,1,hotpot,78,0,0,0,0,0,0,0,0,0,0,0,0,14,2,0,5,3,2,0,1,0,1,0,0,1
+sfq_5980,In which English city would you find Winson Green Prison?,1,trivia,57,0,0,0,0,0,0,0,0,0,0,0,0,11,0,1,3,4,2,1,1,0,0,1,0,0
+5a7905ca554299148911f9c8,What year was the player the Los Angeles Clippers aquired from the Atlanta Hawks born?,1,hotpot,86,0,0,0,0,1,0,0,0,0,0,0,0,16,0,2,5,4,2,0,2,0,0,0,0,0
+jp_3155,What religious text was recently adapted into a hit Broadway musical?,1,trivia,69,0,0,0,0,1,0,0,0,0,0,0,0,12,0,1,1,2,1,0,1,0,0,0,0,0
+dev_1360,who formed and first came to the colony of maryland,1,nq,51,0,0,0,0,0,1,0,0,0,0,0,0,10,1,2,1,3,2,0,1,0,1,0,0,1
+5abbe09d55429931dba145c0,What did one of Electron Blue writer who is also an american musician found?,1,hotpot,76,0,0,0,0,1,0,0,0,0,0,0,0,15,1,1,1,4,2,0,2,0,0,0,0,0
+sfq_22841,Who composed the opera The Huguenots?,1,trivia,37,0,0,0,0,0,1,0,0,0,0,0,0,7,0,1,1,3,1,0,0,0,0,0,0,0
+5a77d5b855429949eeb29f77,"Which nationality is the international footballer, born 20 March 1984, who made his breakthrough La Liga debut in the 2002–03 Atlético Madrid season, scoring 13 league goals as a teenager?",1,hotpot,188,14,0,0,0,0,0,0,0,1,0,0,0,34,3,3,5,8,5,0,1,2,1,0,1,1
+qz_5332,Which country does the drink Cinzano come from?,1,trivia,47,0,0,0,0,0,0,0,0,1,0,0,0,9,0,1,1,3,1,0,1,0,0,0,0,0
+5a8f25ba55429924144829e9,Which country is home to Alsa Mall and Spencer Plaza?,1,hotpot,53,0,0,0,0,0,0,0,0,1,0,0,0,11,0,0,4,3,2,2,0,0,0,1,0,0
+dpql_3726,In which film did teacher John Keating break all the rules?,1,trivia,59,0,0,0,0,0,0,0,0,0,0,0,0,12,0,1,2,4,1,1,0,0,0,1,0,0
+5a8765ad5542996e4f3087cf,"Who is affiliated with more countries as a director, Robert Florey and R. G. Springsteen?",1,hotpot,89,0,0,0,0,0,1,0,0,0,0,0,0,17,0,1,5,3,2,2,0,0,0,1,0,0
+bt_620,On what river is the town of Colchester,1,trivia,39,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,1,3,1,0,1,0,0,0,0,0
+5a8af94455429971feec45b6,Jon S. Cardin is the nephew of a senator who has been in office since when ?,1,hotpot,76,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,3,5,1,1,0,0,0,1,0,0
+bt_3661,What was Moses elder brother called,1,trivia,35,0,0,0,0,1,0,0,0,0,1,0,0,6,0,1,1,3,0,0,0,0,0,0,0,0
+5ae2f5b955429928c423957e,"What language, traditionally written with the ancient Libyco-Berber script, is closely related to the Tumzabt and Teggargrent languages?",1,hotpot,136,0,0,0,0,1,0,0,0,0,0,0,0,23,0,2,4,3,2,0,2,0,0,0,0,0
+dev_2060,who owns spirit of the suwannee music park,1,nq,42,0,0,0,0,0,1,0,0,0,0,0,0,8,0,1,0,3,0,0,0,0,0,0,0,0
+5ab68a71554299710c8d1ec2,"Which breed of Dog was developed in Germany, The Large Münsterländer or Bracco Italiano?",1,hotpot,88,0,0,0,0,0,0,0,0,1,0,0,1,16,0,1,6,5,2,0,2,0,0,0,0,0
+dev_3001,who was the leader of the zulu in south africa who led the fight against the british,1,nq,84,0,0,0,0,0,1,0,0,0,0,0,0,17,0,1,4,7,2,0,2,0,0,0,0,0
+5ac0c3275542992a796ded7d,"The reporter who digs into the campaign of a former Marine Colonel, worked where in Cleveland?",1,hotpot,94,0,0,0,0,0,0,0,0,0,0,0,0,18,0,2,3,5,2,0,2,0,0,0,0,0
+dev_1142,who did corbin dance with on dancing with the stars,1,nq,51,0,0,0,0,0,1,0,0,0,0,0,0,10,0,2,0,3,0,0,0,0,0,0,0,0
+sfq_19848,In which TV 'quiz' show was the consolation prize a chequebook and pen?,1,trivia,71,0,1,0,0,0,0,0,0,0,0,0,0,16,0,0,1,5,0,0,0,0,0,0,0,0
+5a8f72de5542997ba9cb3266,What European championship did the man that holds a record with John Boulger win twice?,1,hotpot,87,0,0,0,0,1,0,0,0,0,0,0,0,16,0,3,2,6,2,1,1,0,0,1,0,0
+qb_4763,Which 18th Century composer wrote ‘The Four Seasons’?,1,trivia,53,2,0,0,0,0,0,0,0,1,0,0,0,11,2,1,3,2,1,0,0,1,0,0,1,0
+5a89b1de5542992e4fca8378,Which port city lies approximately 25 km north of the Lingnan Fine Arts Museum?,1,hotpot,79,2,0,0,0,0,0,0,0,1,0,0,0,15,1,1,4,2,2,0,1,0,1,0,0,1
+dev_2313,when was the last time the carolina hurricanes made the playoffs,1,nq,64,0,0,0,0,0,0,1,0,0,0,0,0,11,0,1,1,3,0,0,0,0,0,0,0,0
+5ae7eaf65542994a481bbe1d,When was the  former Indian cricketer who made his ODI debuts during the 2000 ICC KnockOut Trophy born? ,1,hotpot,103,4,0,0,0,0,0,1,0,0,0,0,0,19,1,2,3,4,3,0,2,1,0,0,1,0
+qg_1358,"What noted film director and producer, born on May 14, 1944, founded the theatre audio company THX, and the visual effects company Industrial Light and Magic, among others?",1,trivia,172,6,0,0,0,1,0,0,0,0,0,0,0,34,2,3,5,8,3,0,2,1,0,0,1,0
+5a89f6235542993b751ca9c7,Were both Alvin Lee and Chad Gray lead vocalists for bands?,1,hotpot,59,0,0,0,0,0,0,0,0,0,0,1,1,12,0,1,4,3,2,2,0,0,0,1,0,0
+5ae1d4e75542997f29b3c143,Which member of Northern Kings was born on 14 January 1966?,1,hotpot,59,6,0,0,0,0,0,0,0,1,0,0,0,12,2,1,2,3,2,0,1,1,0,0,1,0
+5a7dd6cd5542995f4f4022cd,Venus is a play by an American playwrite who what what prize?,1,hotpot,61,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,1,3,2,0,2,0,0,0,0,0
+dpql_51,Which amphibian did the ancients believe could live in fire?,1,trivia,60,0,0,0,0,0,0,0,0,1,0,0,0,11,0,2,0,3,0,0,0,0,0,0,0,0
+5ab56ed0554299637185c597,"Telescope Hill is near the hamlet that is in what Suffolk County, New York town?",1,hotpot,80,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,6,5,3,1,2,0,0,1,0,0
+sfq_24637,"""The culinary term """"Du Barry"""", indicates the presence of which vegetable?""",1,trivia,76,0,1,0,0,0,0,0,0,0,0,0,0,19,0,1,2,4,1,0,0,0,0,0,0,0
+5a83161555429940e5e1a958,"What age did a wrestler began his training at who began his friendship with Trevor Mann in Brookport, Illinois CPW?",1,hotpot,115,0,0,0,0,1,0,0,0,0,0,0,0,22,0,2,5,8,3,1,2,0,0,1,0,0
+5ac540365542994611c8b470,"Loughborough Students' Union serves the students at what public research university that has been a university since 1966, but the institution dates back to 1909?",1,hotpot,162,8,1,0,0,0,0,0,0,0,0,0,0,28,2,2,2,6,3,0,1,2,0,0,1,0
+odql_5923,Who played the part of 'herman' in the 1960's TV series 'The Munsters'?,1,trivia,71,4,1,0,0,0,1,0,0,0,0,0,0,19,1,1,0,5,2,0,0,1,0,0,1,0
+dev_3501,when was the last wolf pack killed in yellowstone,1,nq,49,0,0,0,0,0,0,1,0,0,0,0,0,9,0,1,0,1,0,0,0,0,0,0,0,0
+5a80e468554299260e20a1a9,Was Suzanne Chun Oakland a member of the upper of lower chamber of the Hawaii State Legislature?,1,hotpot,96,0,0,0,0,0,0,0,0,0,0,1,0,18,0,0,6,4,2,1,1,0,0,1,0,0
+odql_3654,"Donald Neilson was a notorious figure in the 1970's, but how was he better known?",1,trivia,81,4,1,0,0,0,0,0,0,0,0,0,0,18,1,1,2,3,2,1,0,1,0,1,1,0
+5a8ec4875542995a26add508,What county was Tom Hewitt born in?,1,hotpot,35,0,0,0,0,1,0,0,0,0,0,0,0,8,0,1,2,2,1,1,0,0,0,1,0,0
+odql_12228,Matt Busby played for Manchester City from 1928 to 1936. Which club did he play for from 1936 to 1941?,1,trivia,102,16,0,0,0,0,0,0,0,0,0,0,0,22,4,2,4,4,4,1,1,2,0,1,1,0
+bb_6282,Matthais Muller was made chief of which troubled car company in 2015?,1,trivia,69,4,0,0,0,0,0,0,0,0,0,0,0,13,1,1,2,3,2,1,0,1,0,1,1,0
+5ab724b45542991d32223785,Moss Side railway station is on Blackpool South railway station which is how far from Waterloo Road tram stop?,1,hotpot,110,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,6,4,1,0,1,0,0,0,0,0
+5ac119335542992a796dede4,I'd Come for You is a single by the band formed in what Alberta city?,1,hotpot,69,0,1,0,0,0,0,0,0,0,0,0,0,17,0,2,1,4,1,0,1,0,0,0,0,0
+qb_4014,Who wrote the book of verses ‘Now We Are Six’?,1,trivia,46,0,0,0,0,0,1,0,0,0,0,0,0,13,1,1,0,4,0,0,0,0,0,0,0,0
+dev_3183,who were the first settlers in san antonio,1,nq,42,0,0,0,0,0,1,0,0,0,0,0,0,8,1,0,2,3,2,0,1,0,1,0,0,1
+5ab707d65542991d32223761,Witkins Township is served what district that is represented by Tim Murphy?,1,hotpot,75,0,0,0,0,0,0,0,0,0,0,0,0,13,0,2,4,4,1,1,0,0,0,1,0,0
+5a76f5b155429972597f1400,What American composer born in 1937 pioneered minimal music?,1,hotpot,60,4,0,0,0,1,0,0,0,0,0,0,0,10,1,2,0,2,2,0,1,1,0,0,1,0
+dev_2488,who starred in the movie summer of 42,1,nq,37,2,0,0,0,0,1,0,0,0,0,0,0,8,1,1,0,2,1,0,0,0,1,0,0,1
+odql_8850,"Nicknamed 'Robo Cop' when a policeman, Ray Mallon is the directly elected Mayor of which town?",1,trivia,94,0,1,0,0,0,0,0,0,0,0,0,0,20,0,2,5,6,2,1,1,0,0,1,0,0
+5ae67fba5542996d980e7b9a,In which year did the artist who wrote Hyperreal release his debut studio album?,1,hotpot,80,0,0,0,0,0,0,0,0,0,0,0,0,15,0,2,2,5,2,0,1,1,0,0,1,0
+5ab8397155429919ba4e2272,What was the event where Jacob Minah had his personal best also known as?,1,hotpot,73,0,0,0,0,1,0,0,0,0,1,0,0,15,0,2,2,3,1,1,0,0,0,1,0,0
+sfq_735,Which famous novelist also wrote under the pseudonym Richard Bachman?,1,trivia,69,0,0,0,0,0,0,0,0,1,0,0,0,11,0,1,2,3,1,1,0,0,0,1,0,0
+5abae14b5542996606241657,The 2016 San Jose State Spartans football team were members of a NCAA conference that officially began operations in what year?,1,hotpot,127,4,0,0,0,0,0,0,0,0,0,0,0,22,1,1,5,6,4,0,2,2,0,0,1,0
+5a7a69365542996c55b2dd9b,Which film was Shannyn Sossamon in that was directed by Michael Lehmann?,1,hotpot,72,0,0,0,0,0,0,0,0,1,0,0,0,13,0,1,4,4,2,2,0,0,0,1,0,0
+qf_2472,In which Irish city is the Abbey Theatre?,1,trivia,41,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,2,3,2,0,2,0,0,0,0,0
+dev_1404,when did drop it like it's hot release,1,nq,38,0,1,0,0,0,0,1,0,0,0,0,0,9,0,1,0,3,0,0,0,0,0,0,0,0
+qb_2782,"The 1951 ‘Treaty of Peace With Japan’ which served to officially end World War II, is commonly known as what?",1,trivia,109,4,0,0,0,0,0,0,0,0,0,0,0,24,1,3,6,6,4,0,1,1,0,0,1,0
+dev_1239,who won the silver medal in womens figure skating,1,nq,49,0,0,0,0,0,1,0,0,0,0,0,0,9,0,3,0,3,0,0,0,0,0,0,0,0
+sfq_24924,By which name meaning 'little bird' is the artist born Paolo di Dono at Pratovecchio in 1397 known by modern art-lovers?,1,trivia,120,4,1,0,0,0,0,0,0,0,0,0,0,26,1,3,4,6,3,1,1,1,0,1,1,0
+5ae835f25542997ec272776f,Charles Barkley changed his jersey number to #32 in honor of a player born in which year ?,1,hotpot,90,2,0,0,0,0,0,0,0,0,0,0,0,19,1,2,3,5,3,1,0,1,1,1,1,1
+sfq_5656,What kind of aircraft gave the space shuttle a piggy-back prior to 1981?,1,trivia,72,4,0,0,0,1,0,0,0,0,0,0,0,16,1,1,0,3,1,0,0,1,0,0,1,0
+dpql_2914,"What is the name of the drag queen persona of Thomas Neuwirth, who won in 2014?",1,trivia,79,4,0,0,0,1,0,0,0,0,1,0,0,18,1,1,3,5,2,1,0,1,0,1,1,0
+dev_2129,when did scotland beat england in six nations,1,nq,45,0,0,0,0,0,0,1,0,0,0,0,0,8,1,1,2,3,2,0,1,0,1,0,0,1
+5a80e03e55429938b614222c,This American film and stage actor played the self-destructive soldier Prewitt in Fred Zinnemann's 1953 film that centers around which event?,1,hotpot,141,4,1,0,0,0,0,0,0,0,0,0,0,25,1,2,3,5,4,2,1,1,0,1,1,0
+sfq_9386,Which female succeeded John Prescott as Deputy Leader of the Labour Party in June 2007?,1,trivia,87,4,0,0,0,0,0,0,0,1,0,0,0,16,1,1,7,5,3,1,1,1,0,1,1,0
+sfq_15026,"Which children's fictional character lives at 32, Windsor Gardens, London?",1,trivia,74,2,1,0,0,0,0,0,0,1,0,0,0,14,1,1,3,2,3,0,2,1,0,0,1,0
+qb_6048,"Nani, Cobra Bubbles and Captain Gantu are all characters in which Disney film?",1,trivia,78,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,6,5,2,1,1,0,0,1,0,0
+qw_1813,"In 1966, Germany and England played in the World Cup final for which sport?",1,trivia,75,4,0,0,0,0,0,0,0,0,0,0,0,16,1,1,4,3,4,0,2,1,0,0,1,0
+5a9073405542995b442420bb,What multinational telecommunications company did Robert Orr work for?,1,hotpot,70,0,0,0,0,1,0,0,0,0,0,0,0,10,0,2,2,2,1,1,0,0,0,1,0,0
+5a722b8655429971e9dc9329,Who was the writer of These Boots Are Made for Walkin' and who died in 2007?,1,hotpot,76,4,1,0,0,0,1,0,0,0,0,0,0,18,1,2,1,5,2,0,1,1,0,0,1,0
+5a7c54eb554299683c1c62e8,"The American short horror The sub stars which American actress, make-up artist and producer born in 1964?",1,hotpot,105,4,0,0,0,0,0,0,0,0,0,0,0,21,1,2,0,2,3,0,2,1,0,0,1,0
+5a8fdd9c55429916514e73de,"In which year did this American rapper and actor, from Cleveland, Ohio, who guest-featured in the album ""Excuse My French"" first release a mixtape?",1,hotpot,147,0,1,0,0,0,0,0,0,0,0,0,0,32,1,3,3,9,5,0,4,0,1,0,0,1
+5ab7d33d5542992aa3b8c859,"What actor starred in ""Word of Honor"" and ""Miami Vice""? ",1,hotpot,55,0,1,0,0,1,0,0,0,0,0,0,0,15,0,1,4,4,2,0,1,0,0,0,0,0
+odql_11128,"'The Playboy Riots' occurred during and following the opening in 1907 of 'The Playboy Of The Western World' by J.M. Synge, at which Dublin theatre?",1,trivia,147,4,1,0,0,0,0,0,0,0,0,0,0,31,1,2,7,6,5,1,2,1,0,1,1,0
+odql_13192,'Picket's Charge' occurred in which battle of the American Civil War?,1,trivia,69,0,1,0,0,0,0,0,0,0,0,0,0,15,0,1,4,3,2,0,2,0,0,0,0,0
+5a8fb65d5542997ba9cb32fa, Steven S. Crompton is a Canadian-born artist known as the artist for a a fantasy role-playing game designed by Ken St. Andre and first published by who?,1,hotpot,152,0,0,0,0,0,0,0,0,0,0,0,0,32,1,5,7,6,3,2,1,0,0,1,0,0
+5a775cdb5542993735360244,Which U.S. State contains tropical wetlands and Diamondback Airboats?,1,hotpot,69,0,0,0,0,0,0,0,0,1,0,0,0,10,0,1,4,3,2,0,2,0,0,0,0,0
+5ab3e07e55429969a97a81e5,"In the 1962 German Grand Prix, a racer came second. What did this racer found?",1,hotpot,78,4,0,0,0,0,0,0,0,0,0,0,0,18,2,2,3,4,3,0,0,1,1,0,1,1
+5ab639e65542995eadeeff7f,"Who has won more awards, Dan Schneider or Helen Hunt?",1,hotpot,53,0,0,0,0,0,1,0,0,0,0,0,1,12,0,1,4,2,2,2,0,0,0,1,0,0
+sfq_2516,In which country did the Battle of El Alamein take place?,1,trivia,57,0,0,0,0,0,0,0,0,0,0,0,0,12,0,1,3,4,1,0,1,0,0,0,0,0
+bt_2905,What flower was named after the Duke of Cumberland,1,trivia,50,0,0,0,0,1,0,0,0,0,0,0,0,9,0,1,2,3,1,0,1,0,0,0,0,0
+dev_3134,what is the salary of the ceo of microsoft,1,nq,42,0,0,0,0,1,0,0,0,0,1,0,0,9,0,0,1,4,1,0,1,0,0,0,0,0
+sfq_5677,"According to the Old Testament, who was the first person to have a hangover?",1,trivia,76,0,0,0,0,0,0,0,0,0,0,0,0,16,1,2,2,4,2,0,1,0,1,0,0,1
+sfq_1177,Which hero was the son of Zeus by Danae?,1,trivia,40,0,0,0,0,0,0,0,0,1,0,0,0,10,0,0,2,4,2,2,0,0,0,1,0,0
+tb_901,The Frenchman Jean Robert-Houdin (1805-1871) is credited with formalizing what form of entertainment?,1,trivia,101,8,0,0,0,0,0,0,0,0,0,0,0,20,2,2,4,3,3,1,1,1,0,1,1,0
+5a86edcc55429960ec39b6da,"What actress portrayed Rachel Green on the sitcom ""Friends"" and starred in the movie ""She's Funny That Way""?",1,hotpot,108,0,1,0,0,1,0,0,0,0,0,0,0,24,0,2,2,7,3,1,0,0,0,1,0,0
+dev_944,which is the fastest train in india and what is its speed,1,nq,57,0,0,0,0,0,0,0,0,1,0,0,0,12,0,0,1,5,1,0,1,0,0,0,0,0
+5a8e3e9b5542995085b37402,In which county of New York was Circumstantial Productions founded?,1,hotpot,67,0,0,0,0,0,0,0,0,0,0,0,0,11,0,1,4,3,2,0,2,0,0,0,0,0
+5a72aec45542994cef4bc3d7,"Which author lived longer, Nelson Algren or Nathanael West?",1,hotpot,59,0,0,0,0,0,0,0,0,1,0,0,1,11,0,1,4,1,2,2,0,0,0,1,0,0
+dev_157,when did the rational dress society begin to work,1,nq,49,0,0,0,0,0,0,1,0,0,0,0,0,9,0,2,0,1,0,0,0,0,0,0,0,0

@@ -1,0 +1,73 @@
+root = /root/autodl-tmp
+spacy_model = en_core_web_sm
+seed = 42
+sample_size_per_class = 100
+
+merged questions: 20975
+useRAG=0: 5661
+useRAG=1: 15314
+
+--- per-dataset useRAG distribution ---
+useRAG      0     1
+dataset            
+hotpot   1119  6286
+nq       1216  2394
+trivia   3326  6634
+
+--- FULL STATS ---
+           feature       kind  neg_n  pos_n  neg_mean  pos_mean neg_std  pos_std    diff cohen_d   welch_p     mwu_p    chi2_p
+        word_count continuous   5661  15314   13.0081   16.5810  5.9942   7.6632  3.5729  0.5194 4.06e-262 4.08e-286          
+        char_count continuous   5661  15314   63.4317   83.8769  28.795  38.2775 20.4452  0.6036         0         0          
+  digit_char_count continuous   5661  15314    0.2291    1.4252  1.0344   2.4278  1.1961   0.641         0         0          
+number_token_count continuous   5661  15314    0.1774    0.5748  0.5313   0.8497  0.3974  0.5608         0 1.59e-300          
+      entity_count continuous   5661  15314    1.1457    2.0771  1.1737   1.4441  0.9314  0.7078         0         0          
+      person_count continuous   5661  15314    0.3323    0.5074  0.6937   0.7424  0.1751  0.2437  2.08e-56  5.11e-86          
+ org_gpe_loc_count continuous   5661  15314    0.5596    0.8398  0.8191   0.9616  0.2801  0.3136  1.15e-95  2.14e-96          
+   date_time_count continuous   5661  15314    0.0639    0.3524  0.2933   0.5759  0.2885  0.6312         0         0          
+    cardinal_count continuous   5661  15314    0.1187    0.2009  0.4157   0.4775  0.0822  0.1837  5.01e-34  1.84e-39          
+  noun_chunk_count continuous   5661  15314    3.6660    4.2837  1.7002     2.05  0.6178   0.328 1.18e-105 1.06e-102          
+        verb_count continuous   5661  15314    0.9053    1.3657  0.9334   1.0015  0.4604  0.4756 3.05e-203 3.24e-241          
+       propn_count continuous   5661  15314    1.6675    2.8436  1.9341   2.2013  1.1761  0.5676 4.22e-292         0          
+         has_quote     binary   5661  15314    0.1390    0.2063                   0.0673                              2.33e-28
+     is_definition     binary   5661  15314    0.1744    0.0686                  -0.1057                             2.82e-116
+          is_yesno     binary   5661  15314    0.0583    0.0144                  -0.0439                              3.34e-69
+     is_comparison     binary   5661  15314    0.1685    0.0798                  -0.0887                              7.07e-78
+ has_person_entity     binary   5661  15314    0.2346    0.3933                   0.1587                             2.56e-101
+   has_date_entity     binary   5661  15314    0.0542    0.3075                   0.2533                                     0
+ has_number_entity     binary   5661  15314    0.1007    0.1747                   0.0741                              1.89e-39
+   starts_with_why     binary   5661  15314    0.0011    0.0011                   0.0001                                     1
+   starts_with_how     binary   5661  15314    0.0270    0.0215                  -0.0055                                  0.02
+  starts_with_what     binary   5661  15314    0.3132    0.1723                  -0.1409                             3.26e-109
+   starts_with_who     binary   5661  15314    0.0738    0.1663                   0.0925                              3.93e-65
+  starts_with_when     binary   5661  15314    0.0087    0.0550                   0.0464                              3.47e-49
+ starts_with_where     binary   5661  15314    0.0304    0.0311                   0.0008                                 0.811
+ starts_with_which     binary   5661  15314    0.1021    0.1692                   0.0671                              2.73e-33
+
+--- SAMPLE STATS ---
+           feature       kind  neg_n  pos_n  neg_mean  pos_mean  neg_std  pos_std  diff cohen_d  welch_p    mwu_p   chi2_p
+        word_count continuous    100    100     12.45     15.35   4.9367   6.2026  2.90  0.5173  0.00033 0.000206         
+        char_count continuous    100    100     60.61     77.14  24.2028  31.5191 16.53  0.5883 4.87e-05 2.76e-05         
+  digit_char_count continuous    100    100      0.33      1.41   1.7295   2.7747  1.08  0.4671  0.00117 4.27e-05         
+number_token_count continuous    100    100      0.28      0.52   0.7396   0.7717  0.24  0.3175   0.0259  0.00143         
+      entity_count continuous    100    100      1.03      1.92   1.1411   1.2283  0.89  0.7507 2.97e-07 6.67e-08         
+      person_count continuous    100    100      0.36      0.45    0.718   0.6723  0.09  0.1294    0.361    0.139         
+ org_gpe_loc_count continuous    100    100      0.39      0.89   0.6948   0.9089  0.50  0.6181 2.06e-05 7.09e-06         
+   date_time_count continuous    100    100      0.07      0.34   0.4324   0.5724  0.27  0.5323 0.000225 2.47e-06         
+    cardinal_count continuous    100    100      0.15      0.11    0.386   0.3145 -0.04 -0.1136    0.423    0.509         
+  noun_chunk_count continuous    100    100      3.42      3.89   1.4083   1.6011  0.47  0.3117   0.0287   0.0272         
+        verb_count continuous    100    100      0.90      1.30   0.8587   0.8933  0.40  0.4565  0.00146 0.000837         
+       propn_count continuous    100    100      1.41      2.78   1.8318   1.9467  1.37  0.7248 7.06e-07  1.1e-07         
+         has_quote     binary    100    100      0.10      0.18                    0.08                              0.154
+     is_definition     binary    100    100      0.24      0.04                   -0.20                           0.000108
+          is_yesno     binary    100    100      0.06      0.02                   -0.04                              0.279
+     is_comparison     binary    100    100      0.16      0.04                   -0.12                            0.00952
+ has_person_entity     binary    100    100      0.24      0.35                    0.11                              0.121
+   has_date_entity     binary    100    100      0.04      0.29                    0.25                           4.83e-06
+ has_number_entity     binary    100    100      0.14      0.11                   -0.03                              0.669
+   starts_with_why     binary    100    100      0.00      0.00                    0.00                                nan
+   starts_with_how     binary    100    100      0.01      0.00                   -0.01                                  1
+  starts_with_what     binary    100    100      0.38      0.19                   -0.19                            0.00481
+   starts_with_who     binary    100    100      0.08      0.13                    0.05                              0.356
+  starts_with_when     binary    100    100      0.01      0.06                    0.05                              0.124
+ starts_with_where     binary    100    100      0.08      0.01                   -0.07                             0.0407
+ starts_with_which     binary    100    100      0.07      0.19                    0.12                             0.0207
