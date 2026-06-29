@@ -1,0 +1,10 @@
+========== Results (LLM Accuracy) ==========
+Total samples: 500
+Fixed chunking accuracy: 0.5420 (271/500)
+Semantic chunking accuracy: 0.6120 (306/500)
+Improvement: 7.00%
+Bootstrap 95% CI of diff: [0.0340, 0.1100]
+One-sided p-value (semantic > fixed): 0.0010
+✅ Statistically significant.
+
+Detailed results saved to ./chunking_ablation_llm_results.csv
