@@ -1,0 +1,4 @@
+总记录数: 200
+平均绝对差值 (|canAnswer - possibility| 的平均): 0.070450
+总记录数: 200
+平均绝对差值 (|canAnswer - possibility| 的平均): 0.157950

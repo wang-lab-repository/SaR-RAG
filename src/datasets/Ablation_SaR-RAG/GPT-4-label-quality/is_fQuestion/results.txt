@@ -1,0 +1,3 @@
+最终专家版: questions_boundary_balanced_200.jsonl
+GPT5相对最终专家版差 19 条，误差率 9.5%
+GPT4相对最终专家版差 26 条，误差率 13%
