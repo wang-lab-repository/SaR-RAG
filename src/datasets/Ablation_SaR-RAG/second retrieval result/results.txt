@@ -1,0 +1,28 @@
+(adaptiverag) root@autodl-container-d4c747b187-8bfbaa08:~/autodl-tmp/second retrieval result# python hotpot_two_round_retrieval_experiment.py
+初始化 BM25 检索器（Elasticsearch）...
+加载 MDDS 模型...
+/root/miniconda3/envs/adaptiverag/lib/python3.8/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Some weights of the model checkpoint at microsoft/deberta-v3-base were not used when initializing DebertaV2Model: ['lm_predictions.lm_head.LayerNorm.bias', 'lm_predictions.lm_head.dense.weight', 'lm_predictions.lm_head.LayerNorm.weight', 'mask_predictions.LayerNorm.bias', 'mask_predictions.dense.bias', 'mask_predictions.dense.weight', 'mask_predictions.classifier.bias', 'mask_predictions.LayerNorm.weight', 'lm_predictions.lm_head.dense.bias', 'mask_predictions.classifier.weight', 'lm_predictions.lm_head.bias']
+- This IS expected if you are initializing DebertaV2Model from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DebertaV2Model from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+加载 FLAN-T5-XL 模型...
+Loading tokenizer from ../flan-t5-xl...
+Tokenizer loaded.
+Loading model from ../flan-t5-xl with dtype=float16...
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:04<00:00,  2.42s/it]
+Model loaded.
+Model moved to cuda.
+FlanGenerator ready.
+读取原始结果文件...
+需要二轮检索的样本数: 265
+两轮检索+生成: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 265/265 [02:32<00:00,  1.73it/s]
+
+========== 两轮检索后整体指标 ==========
+样本总数: 500
+EM (Acc): 0.4820 (48.20%)
+F1:       0.5379 (53.79%)
+
+相对于原始样本集:
+  改进后正确数: 40 (15.09%)
